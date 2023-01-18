@@ -11,6 +11,6 @@ class PageController extends Controller
 
         $trains = Train::all();
 
-        return view('home', compact('trains'));
+        return view('guest.home', compact('trains'));
    }
 }
